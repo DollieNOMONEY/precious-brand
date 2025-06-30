@@ -11,7 +11,7 @@ type PreviewProps = {
     priceKHR?: string,
 }
 
-export default function ClothingPreview({srcLink, srcLink2, altText, name, priceKHR, priceUSD}: PreviewProps) {
+export default function ClothingPreview({srcLink, altText, name, priceKHR, priceUSD}: PreviewProps) {
     const [clickedArrow, setClickedArrow] = useState(false);
     function arrowOnClick() {
         setClickedArrow(!clickedArrow);

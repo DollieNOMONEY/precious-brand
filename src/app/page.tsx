@@ -43,7 +43,7 @@ export default function Home() {
         </div>
 
         <div className="p-5">
-          <p className="mb-2">DISCOVER WHAT'S NEW</p>
+          <p className="mb-2">DISCOVER WHAT&apos;S NEW</p>
           <div className="flex justify-start md:justify-around">
              <div className="flex gap-5">
               <button className="text-xs underline">All</button>
