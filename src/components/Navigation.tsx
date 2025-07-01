@@ -24,18 +24,18 @@ export default function Navigation() {
         <div className='flex flex-col justify-between'> {/* h-dvh  */}
             <div className='w-full'>
                 <div className='relative flex justify-between align-middle py-5 px-4 bg-white z-20'>
-                    <div className='flex gap-5 md:w-2/6'>
-                        <button onClick={openMenu} className='text-2xl opacity-75 md:hidden'>☰</button>
-                        <div>
+                    <div className='flex gap-5 md:w-3/6'>
+                        <button onClick={openMenu} className='text-2xl opacity-75 lg:hidden'>☰</button>
+                        <div className='hidden lg:inline'>
                             <a className='text-xs font-[outfit] uppercase'>Collections</a>
                         </div>
-                        <div>
+                        <div className='hidden lg:inline'>
                             <a className='text-xs font-[outfit] uppercase'>Telegram</a>
                         </div>
-                        <div>
+                        <div className='hidden lg:inline'>
                             <a className='text-xs font-[outfit] uppercase'>SSDrop</a>
                         </div>
-                        <div>
+                        <div className='hidden lg:inline'>
                             <a className='text-xs font-[outfit] uppercase'>New Arrivals</a>
                         </div>
                     </div>
@@ -45,7 +45,7 @@ export default function Navigation() {
                         width={100}
                         className='object-contain'
                     />
-                   <div className='flex gap-5 md:w-2/6 md:justify-end md:gap-5'>
+                   <div className='flex gap-5 md:w-3/6 md:justify-end md:gap-5'>
                         <span className=' hidden md:inline'>
                             <FontAwesomeIcon icon={faSearch}/>
                         </span>
