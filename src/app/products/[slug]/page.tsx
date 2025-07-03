@@ -9,11 +9,7 @@ import ProductPairsWellWith from '@/components/ProductPairsWellWith';
 import ProductYouMayAlsoLike from '@/components/ProductYouMayAlsoLike';
 import ProductSlider from '@/components/ProductSlider';
 
-import Season9_Mockup5 from "@/img/collections/collection-09/mockups/PCS Front Grey Long Sleeve.jpg"
-import Season9_Mockup6 from "@/img/collections/collection-09/mockups/PCS back Grey Long Sleeve.jpg"
-
-
-export default function Product(productName: string) {
+export default function Product() {
   const params = useParams();
   const { slug } = params;
 

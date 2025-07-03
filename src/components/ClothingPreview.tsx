@@ -22,7 +22,7 @@ export default function ClothingPreview({srcLink, srcLink2, altText, name, price
         setClickedArrow(!clickedArrow);
     }
     function convertProductToSlug() {
-        let nameConverted = name?.replace(/ /g, "-").toLowerCase();
+        const nameConverted = name?.replace(/ /g, "-").toLowerCase();
         return nameConverted
     }
   return (
