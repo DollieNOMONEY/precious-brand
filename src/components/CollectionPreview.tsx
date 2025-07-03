@@ -36,7 +36,7 @@ export default function CollectionPreview() {
         <div className="p-7 flex flex-col items-center">
           <p className="mb-5 font-bold font-[outfit]">DISCOVER WHAT&apos;S NEW</p>
           <div className="flex justify-start md:justify-between mb-2">
-             <div className="flex gap-5">
+            <div className="flex gap-5">
               <button onClick={() => buttonOnClicked("9")} className="text-xs font-[outfit] hover:underline cursor-pointer">Collection 9</button>
               <button onClick={() => buttonOnClicked("8")} className="text-xs font-[outfit] hover:underline cursor-pointer">Collection 8</button>
               <button onClick={() => buttonOnClicked("7")} className="text-xs font-[outfit] hover:underline cursor-pointer">Collection 7</button>

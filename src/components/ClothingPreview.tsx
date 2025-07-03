@@ -1,6 +1,6 @@
-"use client"
 import { useState } from 'react'
 import Image, { StaticImageData } from 'next/image'
+import Link from 'next/link'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
@@ -21,9 +21,18 @@ export default function ClothingPreview({srcLink, srcLink2, altText, name, price
     function arrowOnClick() {
         setClickedArrow(!clickedArrow);
     }
+    function convertProductToSlug() {
+        let nameConverted = name?.replace(/ /g, "-").toLowerCase();
+        return nameConverted
+    }
   return (
     <div>
         <div className='relative'>
+            <Link href={`/products/${convertProductToSlug()}`} 
+            className='opacity-0 absolute top-0 h-full w-full'
+            >
+            Link to Product   
+            </Link>
             { clickedArrow && (
                 <FontAwesomeIcon onClick={arrowOnClick} icon={faChevronLeft} className="cursor-pointer fa-fw absolute top-1/2 -translate-x-0.5 -translate-y-0.5 left-0"/>
                 // <button onClick={arrowOnClick} className='absolute top-1/2 -translate-x-0.5 -translate-y-0.5 left-0'>◄</button>
