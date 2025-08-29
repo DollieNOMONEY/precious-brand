@@ -1,0 +1,19 @@
+.blogTitle h1 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.blogTitle h3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 500;
+
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-transform: uppercase;
+}
