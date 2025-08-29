@@ -71,17 +71,17 @@ export default function Navigation() {
                 return (
                     <div className={commonClasses}>
                         <ul className='font-[outfit]'>
-                            <li><a href="/collections" className={linkClasses}>All Collections</a></li>
-                            <li><a href="/collections/s-10" className={linkClasses}>Collection 10</a></li>
-                            <li><a href="/collections/s-9" className={linkClasses}>Collection 9</a></li>
-                            <li><a href="/collections/s-8" className={linkClasses}>Collection 8</a></li>
-                            <li><a href="/collections/s-7" className={linkClasses}>Collection 7</a></li>
-                            <li><a href="/collections/s-6" className={linkClasses}>Collection 6</a></li>
-                            <li><a href="/collections/s-5" className={linkClasses}>Collection 5</a></li>
-                            <li><a href="/collections/s-4" className={linkClasses}>Collection 4</a></li>
-                            <li><a href="/collections/s-3" className={linkClasses}>Collection 3</a></li>
-                            <li><a href="/collections/s-2" className={linkClasses}>Collection 2</a></li>
-                            <li><a href="/collections/s-1" className={linkClasses}>Collection 1</a></li>
+                            <li><Link href="/collections" className={linkClasses}>All Collections</Link></li>
+                            <li><Link href="/collections/s-10" className={linkClasses}>Collection 10</Link></li>
+                            <li><Link href="/collections/s-9" className={linkClasses}>Collection 9</Link></li>
+                            <li><Link href="/collections/s-8" className={linkClasses}>Collection 8</Link></li>
+                            <li><Link href="/collections/s-7" className={linkClasses}>Collection 7</Link></li>
+                            <li><Link href="/collections/s-6" className={linkClasses}>Collection 6</Link></li>
+                            <li><Link href="/collections/s-5" className={linkClasses}>Collection 5</Link></li>
+                            <li><Link href="/collections/s-4" className={linkClasses}>Collection 4</Link></li>
+                            <li><Link href="/collections/s-3" className={linkClasses}>Collection 3</Link></li>
+                            <li><Link href="/collections/s-2" className={linkClasses}>Collection 2</Link></li>
+                            <li><Link href="/collections/s-1" className={linkClasses}>Collection 1</Link></li>
                         </ul>
                     </div>
                 );
@@ -89,13 +89,13 @@ export default function Navigation() {
                 return (
                     <div className={commonClasses}>
                         <ul className='font-[outfit]'>
-                            <li><a href="/shop-all" className={linkClasses}>All Products</a></li>
-                            <li><a href="/collections/new-arrivals" className={linkClasses}>New Arrivals</a></li>
-                            <li><a href="/collections/tee" className={linkClasses}>Tee</a></li>
-                            <li><a href="/collections/long-sleeves" className={linkClasses}>Long Sleeves</a></li>
-                            <li><a href="/collections/hoodie" className={linkClasses}>Hoodie</a></li>
-                            <li><a href="/collections/polo" className={linkClasses}>Polo</a></li>
-                            <li><a href="/collections/zip-up" className={linkClasses}>Zip-Up</a></li>
+                            <li><Link href="/shop-all" className={linkClasses}>All Products</Link></li>
+                            <li><Link href="/collections/new-arrivals" className={linkClasses}>New Arrivals</Link></li>
+                            <li><Link href="/collections/tee" className={linkClasses}>Tee</Link></li>
+                            <li><Link href="/collections/long-sleeves" className={linkClasses}>Long Sleeves</Link></li>
+                            <li><Link href="/collections/hoodie" className={linkClasses}>Hoodie</Link></li>
+                            <li><Link href="/collections/polo" className={linkClasses}>Polo</Link></li>
+                            <li><Link href="/collections/zip-up" className={linkClasses}>Zip-Up</Link></li>
                         </ul>
                     </div>
                 );

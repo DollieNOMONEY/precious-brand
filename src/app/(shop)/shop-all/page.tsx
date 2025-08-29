@@ -15,7 +15,7 @@ const Pagination = ({ totalPages = 10, initialPage = 1 }) => {
     }
   }, [initialPage, totalPages]);
 
-  const goToPage = (pageNumber: any) => {
+  const goToPage = (pageNumber: number) => {
     if (pageNumber >= 1 && pageNumber <= totalPages) {
       setPage(pageNumber);
     }
@@ -26,7 +26,7 @@ const Pagination = ({ totalPages = 10, initialPage = 1 }) => {
     const maxPageButtons = 5;
 
     let startPage = Math.max(1, page - Math.floor(maxPageButtons / 2));
-    let endPage = Math.min(totalPages, startPage + maxPageButtons - 1);
+    const endPage = Math.min(totalPages, startPage + maxPageButtons - 1);
 
     if (endPage - startPage + 1 < maxPageButtons) {
       startPage = Math.max(1, endPage - maxPageButtons + 1);
