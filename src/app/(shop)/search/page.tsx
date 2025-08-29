@@ -4,7 +4,7 @@ import ProductPreview from '@/components/ClothingPreview/ProductPreview';
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-// Dummy pagination component — you can wire it later
+// wire later
 const Pagination = ({ totalPages = 5, initialPage = 1 }) => {
   const [page, setPage] = useState(initialPage);
 
